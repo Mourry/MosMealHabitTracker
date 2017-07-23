@@ -10,11 +10,11 @@ public final class MealHabitContract {
 
     public static class MealHabitEntry implements BaseColumns {
 
-        public static final String TABLE_NAME = "meal habits";
+        public static final String TABLE_NAME = "mealHabits";
         
-        public static final String COLUMN_HABIT_NAME = "name of the meal";
-        public static final String COLUMN_HABIT_DESCRIPTION = "description of the meal";
-        public static final String COLUMN_HABIT_MINUTE_DURATION = "duration of the meal";
+        public static final String COLUMN_HABIT_NAME = "nameOfTheMeal";
+        public static final String COLUMN_HABIT_DESCRIPTION = "descriptionOfTheMeal";
+        public static final String COLUMN_HABIT_MINUTE_DURATION = "durationOfTheMeal";
 
         /*
         *  Duration increments in minutes
